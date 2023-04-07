@@ -1,0 +1,61 @@
+.App{
+  height: 100%;
+  width: 100%;
+  /* background-image: url('../img.jpg'); */
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(121,9,85,1) 50%, rgba(0,212,255,1) 100%);
+}
+body > #root > div {
+  height: 100vh;
+}
+.container{
+  background-color: black;
+  position: relative;
+  height: 650px;
+  width: 400px;
+  left: 37%;
+  top: 40px;
+  border-radius: 40px;
+}
+.display{
+  height: 15%;
+  width: 100%;
+  /* background-color: grey; */
+  position: relative;
+  top: 10%;
+  display: flex;
+  justify-content: flex-end;
+  align-items:end;
+  color: white;
+  font-size: 80px;
+  font-weight: 200;
+  padding-right:2px;
+  overflow: hidden;
+}
+.display > span {
+  font-size: 40px;
+  font-weight: 200;
+  color:gray;
+  text-align: right;
+  overflow-x: hidden;
+  padding: 20px;
+  overflow: hidden;
+}
+.buttons {
+  position: relative;
+  top: 8%;
+  left: 2.5%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+.buttons button {
+  border: none;
+  height: 92px;
+  width: 92px;
+  border-radius: 50%;
+  font-size: 40px;
+}
+.container {
+  box-shadow: 4px 4px 4px 4px black;
+}
